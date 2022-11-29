@@ -68,89 +68,43 @@ class _DashboardState extends State<Dashboard> {
                     color: Colors.grey.shade300,
                   ),
 
-                //      Row(
-                // mainAxisAlignment: MainAxisAlignment.start,
-                // crossAxisAlignment: CrossAxisAlignment.start,
-                // children: [
-                //   Container(
-                //       width: 128,
-                //       child: ListView.builder(
-                //           shrinkWrap: true,
-                //           physics: NeverScrollableScrollPhysics(),
-                //           itemCount: 5,
-                //           itemBuilder: (context, index) => displayHeadingBox(
-                //               text: ['one','two','three','4444','555555'][index]))),
-                //   Expanded(
-                //       child: Container(
-                //           color: Colors.white,
-                //           height: height - 65 - 90,
-                //           padding: EdgeInsets.only(top: 4),
-                //           child: ListView.builder(
-                //               shrinkWrap: true,
-                //               physics: NeverScrollableScrollPhysics(),
-                //               itemCount: 
-                //               FilterFunction.getSelectedFilter(
-                //                       heading: textSelected != null &&
-                //                               textSelected.length > 0
-                //                           ? textSelected
-                //                           : (['one','two','three','4444','555555','88888888','999999'][0]),
-                //                       list:['one','two','three','4444','555555','88888888','999999'] )
-                //                   .length,
-                //               itemBuilder: (context, index) => displayTrailing(
-                //                     text: FilterFunction.getSelectedFilter(
-                //                             heading: textSelected != null &&
-                //                                     textSelected.length > 0
-                //                                 ? textSelected
-                //                                 : (['one','two','three','4444','555555','88888888','999999'][0]),
-                //                             list: ['one','two','three','4444','555555','88888888','999999'])[index]
-                //                         .title,
-                //                     tralingvalue:
-                //                         FilterFunction.getSelectedFilter(
-                //                                 heading: textSelected != null &&
-                //                                         textSelected.length > 0
-                //                                     ? textSelected
-                //                                     : (['one','two','three','4444','555555','88888888','999999'][0]),
-                //                                 list:
-                //                                     ['one','two','three','4444','555555','88888888','999999'])[index]
-                //                             .value,
-                //                   ))))
-                // ]),
+                
 
 
-                  // Expanded(
-                  //   child: SingleChildScrollView(
-                  //     child: Column(
-                  //       children: [
-                  //         Row(
-                  //           children: [
-                  //             Expanded(
-                  //               flex: 1,
-                  //               child: Container(
-                  //                 // width: MediaQuery.of(context).size.width * 0.5,
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              Expanded(
+                                flex: 1,
+                                child: Container(
+                                  // width: MediaQuery.of(context).size.width * 0.5,
                                   
-                  //                 color: Colors.white,
-                  //                 // elevation: 0,
+                                  color: Colors.white,
+                                  // elevation: 0,
                               
-                  //                 child: Text('end drawer'),
-                  //               ),
-                  //             ),
-                  //             Expanded(
-                  //               flex: 1,
-                  //               child: Container(
-                  //                 // width: MediaQuery.of(context).size.width * 0.5,
+                                  child: Text('end drawer'),
+                                ),
+                              ),
+                              Expanded(
+                                flex: 1,
+                                child: Container(
+                                  // width: MediaQuery.of(context).size.width * 0.5,
                                   
-                  //                 color: Colors.red,
-                  //                 // elevation: 0,
+                                  color: Colors.red,
+                                  // elevation: 0,
                               
-                  //                 child: Text('end drawer'),
-                  //               ),
-                  //             ),
-                  //           ],
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ),
-                  // ),
+                                  child: Text('end drawer'),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
 
 
 
